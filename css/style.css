@@ -1,0 +1,189 @@
+/* UNIVERSALS */
+body, html {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+html {
+    background-color: #4ddef7;
+}
+
+main, aside {
+    font-size: 1.5em;
+}
+
+a {
+    color: #333;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2373a5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2373a5;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.points {
+    list-style: none;
+    font-size: 1.25em;
+}
+
+ol {
+  font-size: 1.2em;
+}
+
+.nested-points {
+  margin-left: 24px;
+  font-size: 1em;
+}
+
+.bulleted-points {
+    list-style-type: circle;
+}
+
+.dashed-list {
+    list-style-type: square;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.padtop3 {
+  padding-top: 3em;
+}
+
+pre {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.highlight-circle {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #2373a5;
+    padding-left: 4px;
+}
+
+.highlight-block {
+    background-color: #4ddef7;
+    color: #2373a5;
+}
+
+.container, .container-fluid {
+    padding-bottom: 160px;
+    min-height: 110vh;
+}
+/* JS HELPERS */
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header-relative {
+    position: relative;
+}
+
+.js-link {
+    font-weight: bold
+}
+
+.js-link:hover {
+    cursor: pointer;
+    color: #2373a5;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: .5em;
+}
+
+.logo {
+    margin-left: 5em;
+}
+
+.logo a {
+    font-size: 1.75em;
+    color: #2373a5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+}
+
+.nav {
+    font-weight: bold;
+}
+
+.navbar-default {
+    background-color: #eee;
+    border: none;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #2373a5;
+  font-family: 'Space Mono', monospace;
+}
+
+.dropdown-toggle {
+  font-family: 'Space Mono', monospace;
+}
+
+/* MAIN STYLES */
+.section {
+  margin-bottom: 1.5em;
+}
+
+.section main, .section aside{
+    margin-top: 2em;
+}
+
+aside {
+    color: #2373a5;
+    text-align: center;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+.title {
+    margin-top: 1em;
+}
+
+/* TAKE HOME */
+.take-home ul li a {
+    font-weight: bold;
+}
+
