@@ -156,6 +156,10 @@ header {
   font-family: 'Space Mono', monospace;
 }
 
+.nav-link {
+    font-family: 'Space Mono', monospace;
+}
+
 .dropdown-toggle {
   font-family: 'Space Mono', monospace;
 }
