@@ -182,6 +182,14 @@ aside h2 {
     margin-top: 0;
 }
 
+.nested-img {
+    list-style: none;
+}
+
+.nested-img img {
+    max-height: 40vh;
+}
+
 .title {
     margin-top: 1em;
 }
