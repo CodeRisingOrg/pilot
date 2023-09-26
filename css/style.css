@@ -198,6 +198,10 @@ aside h2 {
     margin-top: 1em;
 }
 
+pre code {
+    padding: .5em;
+}
+
 /* TAKE HOME */
 .take-home ul li a {
     font-weight: bold;
