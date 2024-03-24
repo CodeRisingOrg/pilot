@@ -10,7 +10,7 @@ body, html {
 }
 
 html {
-    background-color: #4ddef7;
+    background-color: #F9813C;
 }
 
 main, aside {
@@ -18,18 +18,18 @@ main, aside {
 }
 
 a {
-    color: #333;
+    color: #111250;
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: none;
-    color: #2373a5;
+    color: #F9813C;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #2373a5;
-    font-family: 'Space Mono', monospace;
+    color: #111250;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
@@ -67,8 +67,8 @@ ol {
     font-weight: bold;
 }
 
-.padtop3 {
-  padding-top: 3em;
+.padtop9 {
+  padding-top: 9em;
 }
 
 pre {
@@ -83,12 +83,12 @@ pre {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: 1px solid #2373a5;
+    border: 1px solid #F9813C;
     padding-left: 4px;
 }
 
 .highlight-block {
-    background-color: #4ddef7;
+    background-color: #F9813C;
     color: #2373a5;
 }
 
@@ -115,7 +115,7 @@ pre {
 
 .js-link:hover {
     cursor: pointer;
-    color: #2373a5;
+    color: #F9813C;
 }
 
 /* HEADER */
@@ -133,14 +133,18 @@ header {
 
 .logo a {
     font-size: 1.75em;
-    color: #2373a5;
+    color: #F9813C;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand img {
+    height: 60px;
 }
 
 .nav {
@@ -152,20 +156,30 @@ header {
     border: none;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #111250;
+}
+
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #2373a5;
-  font-family: 'Space Mono', monospace;
-}
-
-.nav-link {
-    font-family: 'Space Mono', monospace;
+  color: #F9813C;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .dropdown-toggle {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-item {
+    color: #111250;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #111250;
+    background-color: #F9813C;;
 }
 
 /* MAIN STYLES */
@@ -178,7 +192,7 @@ header {
 }
 
 aside {
-    color: #2373a5;
+    color: #F9813C;
     text-align: center;
 }
 
